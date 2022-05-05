@@ -57,10 +57,10 @@
             "description": "Make your Instagram shop",
             "autoplay": false,
             "autoplay-speed": 2000,
-            "loop": true,
-            "arrows": true,
+            "loop": false,
+            "arrows": false,
             "dots": false,
-            "rows": "2",
+            "rows": "1",
             "margin": "10"
           }
         }
