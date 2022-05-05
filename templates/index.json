@@ -11,10 +11,10 @@
             "autoplay": true,
             "autoplay-speed": 2000,
             "loop": true,
-            "arrows": true,
-            "dots": true,
-            "rows": "1",
-            "margin": "0px"
+            "arrows": false,
+            "dots": false,
+            "rows": "2",
+            "margin": "10px"
           }
         }
       },
