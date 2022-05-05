@@ -54,7 +54,8 @@
           "type": "shopify:\/\/apps\/blueskytechco\/blocks\/instagram-block\/65d01ae6-c947-4a6d-9205-77a66979c0c4",
           "settings": {
             "heading": "Instagram Shop",
-            "description": "Make your Instagram shop"
+            "description": "Make your Instagram shop",
+            "numberofimage": 4
           }
         }
       },
