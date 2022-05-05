@@ -55,10 +55,10 @@
           "settings": {
             "heading": "Instagram Shop",
             "description": "Make your Instagram shop",
-            "autoplay": true,
+            "autoplay": false,
             "autoplay-speed": 2000,
-            "loop": false,
-            "arrows": false,
+            "loop": true,
+            "arrows": true,
             "dots": false,
             "rows": "2",
             "margin": "10"
