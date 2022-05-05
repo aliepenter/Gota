@@ -53,8 +53,8 @@
         "121370a5-0d94-4a92-a1d8-f93910a72412": {
           "type": "shopify:\/\/apps\/blueskytechco\/blocks\/instagram-block\/65d01ae6-c947-4a6d-9205-77a66979c0c4",
           "settings": {
-            "heading": "Instagram",
-            "description": "A simple app block that shows a grid of images that can be customized by the merchant. Each image can be selected to show a popup with the full-sized image."
+            "heading": "Instagram Shop",
+            "description": "Make your Instagram shop"
           }
         }
       },
