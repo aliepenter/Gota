@@ -69,7 +69,7 @@
         "121370a5-0d94-4a92-a1d8-f93910a72412"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "rich_text": {
