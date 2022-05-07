@@ -1,15 +1,15 @@
 {
   "sections": {
-    "16517261168b102f04": {
+    "16518977535b92558a": {
       "type": "apps",
       "blocks": {
-        "557d332c-c7b3-4be9-87da-a5e0ac3f77bc": {
+        "1614362b-6da2-471e-8ab3-5a41eac1528f": {
           "type": "shopify:\/\/apps\/blueskytechco\/blocks\/instagram-block\/65d01ae6-c947-4a6d-9205-77a66979c0c4",
           "settings": {
             "heading": "Instagram",
-            "description": "Make your Instagram shop",
-            "autoplay": true,
-            "autoplay-speed": 2000,
+            "description": "A simple app block that shows a grid of images that can be customized by the merchant. Each image can be selected to show a popup with the full-sized image.",
+            "autoplay": false,
+            "autoplay-speed": 100,
             "loop": true,
             "arrows": false,
             "dots": false,
@@ -19,10 +19,10 @@
         }
       },
       "block_order": [
-        "557d332c-c7b3-4be9-87da-a5e0ac3f77bc"
+        "1614362b-6da2-471e-8ab3-5a41eac1528f"
       ],
       "settings": {
-        "include_margins": false
+        "include_margins": true
       }
     },
     "image_banner": {
@@ -233,7 +233,7 @@
     }
   },
   "order": [
-    "16517261168b102f04",
+    "16518977535b92558a",
     "image_banner",
     "rich_text",
     "featured_collection",
