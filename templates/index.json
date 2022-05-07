@@ -10,7 +10,7 @@
             "description": "Make your Instagram shop",
             "autoplay": true,
             "autoplay-speed": 2000,
-            "loop": false,
+            "loop": true,
             "arrows": true,
             "dots": false,
             "rows": "2",
