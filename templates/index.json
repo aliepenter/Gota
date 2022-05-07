@@ -9,11 +9,11 @@
             "heading": "Instagram",
             "description": "Make your Instagram shop",
             "autoplay": true,
-            "autoplay-speed": 2000,
+            "autoplay-speed": 5000,
             "loop": true,
             "arrows": true,
             "dots": false,
-            "rows": "2",
+            "rows": "1",
             "margin": "10px"
           }
         }
