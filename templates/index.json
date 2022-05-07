@@ -8,7 +8,7 @@
           "settings": {
             "heading": "Instagram",
             "description": "A simple app block that shows a grid of images that can be customized by the merchant. Each image can be selected to show a popup with the full-sized image.",
-            "autoplay": false,
+            "autoplay": true,
             "autoplay-speed": 100,
             "loop": true,
             "arrows": false,
