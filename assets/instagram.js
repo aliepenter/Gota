@@ -6,11 +6,10 @@ fetch('http://localhost:3333/instagram/')
             bstInstagram.innerHTML += 
                 `<div class="item-bst">
                     <a href="${element.permalink}">
-                        <img src="{{ 'image2.jpg' | asset_url }}" loading="lazy" width="925" height="617">
+                        <img src="${element.media_url}" alt/>
                     </a>
                 </div>`
         })
-        // <img src="${element.media_url}" alt/>
         const autoplay = $('#bst-instagram').data("autoplay");
         const speed = $('#bst-instagram').data("speed");
         const loop = $('#bst-instagram').data("loop");
