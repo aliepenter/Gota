@@ -2,14 +2,14 @@ const bstInstagram = document.querySelector('#bst-instagram')
 fetch('http://localhost:3333/instagram/')
     .then(response => response.json())
     .then(data => {
-        data.forEach(element => {
-            bstInstagram.innerHTML += 
-                `<div class="item-bst">
-                    <a href="${element.permalink}">
-                        <img src="{{ 'image2.jpg' | asset_url }}" loading="lazy" width="925" height="617">
-                    </a>
-                </div>`
-        })
+        // data.forEach(element => {
+        //     bstInstagram.innerHTML += 
+        //         `<div class="item-bst">
+        //             <a href="${element.permalink}">
+        //                 <img src="{{ 'image2.jpg' | asset_url }}" loading="lazy" width="925" height="617">
+        //             </a>
+        //         </div>`
+        // })
         // <img src="${element.media_url}" alt/>
         const autoplay = $('#bst-instagram').data("autoplay");
         const speed = $('#bst-instagram').data("speed");
