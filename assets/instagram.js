@@ -1,5 +1,6 @@
 const bstInstagram = document.querySelector('#bst-instagram')
-fetch('http://localhost:3333/instagram/')
+document.addEventListener("shopify:section:load", function(event) {
+    fetch('http://localhost:3333/instagram/')
     .then(response => response.json())
     .then(data => {
         data.forEach(element => {
@@ -34,3 +35,4 @@ fetch('http://localhost:3333/instagram/')
     .then(result => {
        
     })
+  });
