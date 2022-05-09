@@ -206,7 +206,32 @@
         "padding_bottom": 36
       }
     },
-    "1652065611bc657b9c": {
+    "165206588572b64a56": {
+      "type": "apps",
+      "blocks": {
+        "07ef5933-635f-4079-bc58-c4dc2288a440": {
+          "type": "shopify:\/\/apps\/blueskytechco\/blocks\/instagram-block\/65d01ae6-c947-4a6d-9205-77a66979c0c4",
+          "settings": {
+            "heading": "Instagram",
+            "description": "Make your Instagram shop",
+            "autoplay": false,
+            "autoplay-speed": 2000,
+            "loop": false,
+            "arrows": false,
+            "dots": false,
+            "rows": "2",
+            "margin": "10px"
+          }
+        }
+      },
+      "block_order": [
+        "07ef5933-635f-4079-bc58-c4dc2288a440"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1652065896b7ed0369": {
       "type": "instagram-block",
       "settings": {
         "heading": "Instagram",
@@ -228,6 +253,7 @@
     "collage",
     "video",
     "multicolumn",
-    "1652065611bc657b9c"
+    "165206588572b64a56",
+    "1652065896b7ed0369"
   ]
 }
