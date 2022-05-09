@@ -206,17 +206,17 @@
         "padding_bottom": 36
       }
     },
-    "16520683044fd52ea4": {
+    "165206613951ffb69b": {
       "type": "instagram-block",
       "settings": {
         "heading": "Instagram",
         "description": "Make your Instagram shop",
-        "autoplay": true,
-        "autoplay-speed": 200,
-        "loop": true,
+        "autoplay": false,
+        "autoplay-speed": 2000,
+        "loop": false,
         "arrows": false,
         "dots": false,
-        "rows": "1",
+        "rows": "2",
         "margin": "10px"
       }
     }
@@ -228,6 +228,6 @@
     "collage",
     "video",
     "multicolumn",
-    "16520683044fd52ea4"
+    "165206613951ffb69b"
   ]
 }

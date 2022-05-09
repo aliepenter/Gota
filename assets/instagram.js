@@ -1,5 +1,5 @@
-document.addEventListener("shopify:section:load", function(event) {
-const bstInstagram = document.querySelector('#bst-instagram')
+const runJsInstagram = () => {
+    const bstInstagram = document.querySelector('#bst-instagram')
 
     fetch('http://localhost:3333/instagram/')
     .then(response => response.json())
@@ -12,7 +12,10 @@ const bstInstagram = document.querySelector('#bst-instagram')
                     </a>
                 </div>`
         })
-        const autoplay = $('#bst-instagram').data("autoplay");
+        
+    })
+    .then(result => {
+       const autoplay = $('#bst-instagram').data("autoplay");
         const speed = $('#bst-instagram').data("speed");
         const loop = $('#bst-instagram').data("loop");
         const arrows = $('#bst-instagram').data("arrows");
@@ -31,9 +34,9 @@ const bstInstagram = document.querySelector('#bst-instagram')
         });
         $('.item-bst').css('padding-left',margin)
         $('.item-bst').css('padding-right',margin)
-        
     })
-    .then(result => {
-       
-    })
-  });
+}
+document.addEventListener("shopify:section:load", function(event) {
+    runJsInstagram();
+});
+runJsInstagram();
