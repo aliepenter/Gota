@@ -216,7 +216,7 @@
         "loop": true,
         "arrows": true,
         "dots": true,
-        "rows": "2",
+        "rows": "1",
         "margin": "10px"
       }
     }
