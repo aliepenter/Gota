@@ -1,5 +1,19 @@
 {
   "sections": {
+    "1652065209505f7434": {
+      "type": "instagram-block",
+      "settings": {
+        "heading": "Instagram",
+        "description": "Make your Instagram shop",
+        "autoplay": false,
+        "autoplay-speed": 2000,
+        "loop": false,
+        "arrows": false,
+        "dots": false,
+        "rows": "2",
+        "margin": "10px"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -208,6 +222,7 @@
     }
   },
   "order": [
+    "1652065209505f7434",
     "image_banner",
     "rich_text",
     "featured_collection",
