@@ -209,14 +209,14 @@
     "165206613951ffb69b": {
       "type": "instagram-block",
       "settings": {
-        "heading": "Instagram",
+        "heading": "Instagram Shop",
         "description": "Make your Instagram shop",
         "autoplay": true,
         "autoplay-speed": 2000,
         "loop": true,
         "arrows": false,
         "dots": false,
-        "rows": "3",
+        "rows": "2",
         "margin": "10px"
       }
     }
