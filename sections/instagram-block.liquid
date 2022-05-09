@@ -1,21 +1,21 @@
 <link rel="stylesheet" type="text/css" href="{{ 'app_style.css' | asset_url }}"/>
 
 <section id="section_instagram">
-  {%- if block.settings.heading -%}
-    <h2>{{ block.settings.heading }}</h2>
+  {%- if section.settings.heading -%}
+    <h2>{{ section.settings.heading }}</h2>
   {%- endif -%}
   
-  {%- if block.settings.description -%}
-    <p>{{ block.settings.description }}</p>
+  {%- if section.settings.description -%}
+    <p>{{ section.settings.description }}</p>
   {%- endif -%}
   <div  id="bst-instagram" 
-        data-autoplay="{{ block.settings.autoplay }}"
-        data-speed="{{ block.settings.autoplay-speed }}"
-        data-loop="{{ block.settings.loop }}"
-        data-arrows="{{ block.settings.arrows }}"
-        data-dots="{{ block.settings.dots }}"
-        data-rows="{{ block.settings.rows }}"
-        data-margin="{{ block.settings.margin }}"
+        data-autoplay="{{ section.settings.autoplay }}"
+        data-speed="{{ section.settings.autoplay-speed }}"
+        data-loop="{{ section.settings.loop }}"
+        data-arrows="{{ section.settings.arrows }}"
+        data-dots="{{ section.settings.dots }}"
+        data-rows="{{ section.settings.rows }}"
+        data-margin="{{ section.settings.margin }}"
   >
   </div>
 </section>
@@ -24,6 +24,7 @@
 {% schema %}
   {
     "name": "Instagram",
+    "tag": "section",
     "class": "section",
     "settings": [
       {
@@ -129,10 +130,8 @@
         "default": "10px"
       }
     ],
-  "presets": [{
-            "name": "Instagram",
-            "category": "Text"
-          }]
-	
+    "presets": [{
+      "name": "Instagram"
+    }]
   }
 {% endschema %}
