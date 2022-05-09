@@ -1,0 +1,133 @@
+<link rel="stylesheet" type="text/css" href="{{ 'app_style.css' | asset_url }}"/>
+
+<section id="section_instagram">
+  {%- if block.settings.heading -%}
+    <h2>{{ block.settings.heading }}</h2>
+  {%- endif -%}
+  
+  {%- if block.settings.description -%}
+    <p>{{ block.settings.description }}</p>
+  {%- endif -%}
+  <div  id="bst-instagram" 
+        data-autoplay="{{ block.settings.autoplay }}"
+        data-speed="{{ block.settings.autoplay-speed }}"
+        data-loop="{{ block.settings.loop }}"
+        data-arrows="{{ block.settings.arrows }}"
+        data-dots="{{ block.settings.dots }}"
+        data-rows="{{ block.settings.rows }}"
+        data-margin="{{ block.settings.margin }}"
+  >
+  </div>
+</section>
+<script type="text/javascript" src="{{ 'instagram.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+  {
+    "name": "Instagram",
+    "templates": ["product", "index"],
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Instagram"
+      },
+      {
+        "type": "text",
+        "id": "description",
+        "label": "Description",
+        "default": "Make your Instagram shop"
+      },
+      {
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "Autoplay",
+        "default": false
+      },
+      {
+        "type": "number",
+        "id": "autoplay-speed",
+        "label": "Autoplay Speed",
+        "default": 2000
+      },
+      {
+        "type": "checkbox",
+        "id": "loop",
+        "label": "Infinite Loop",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "arrows",
+        "label": "Show Arrows",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "dots",
+        "label": "Show Dots",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "rows",
+        "label": "Rows",
+        "options": [
+          {
+            "value": "1",
+            "label": "1"
+          },
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          },
+          {
+            "value": "5",
+            "label": "5"
+          },
+          {
+            "value": "6",
+            "label": "6"
+          }
+        ],
+        "default": "2"
+      },
+      {
+        "type": "select",
+        "id": "margin",
+        "label": "Margin",
+        "options": [
+          {
+            "value": "0px",
+            "label": "0px"
+          },
+          {
+            "value": "10px",
+            "label": "10px"
+          },
+          {
+            "value": "20px",
+            "label": "20px"
+          },
+          {
+            "value": "30px",
+            "label": "30px"
+          },
+          {
+            "value": "40px",
+            "label": "40px"
+          }
+        ],
+        "default": "10px"
+      }
+    ]
+  }
+{% endschema %}
