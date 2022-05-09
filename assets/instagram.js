@@ -1,5 +1,6 @@
-const bstInstagram = document.querySelector('#bst-instagram')
 document.addEventListener("shopify:section:load", function(event) {
+const bstInstagram = document.querySelector('#bst-instagram')
+
     fetch('http://localhost:3333/instagram/')
     .then(response => response.json())
     .then(data => {
