@@ -211,11 +211,11 @@
       "settings": {
         "heading": "Instagram",
         "description": "Make your Instagram shop",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay-speed": 100,
         "loop": true,
-        "arrows": true,
-        "dots": true,
+        "arrows": false,
+        "dots": false,
         "rows": "1",
         "margin": "10px"
       }
