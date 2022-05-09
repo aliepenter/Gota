@@ -2,10 +2,9 @@
 <!-- <script type="text/javascript" src="{{ 'instagram.js' | asset_url }}" defer="defer"></script>
  -->
 
- {% javascript %}
-
- const bstInstagram = document.querySelector('#bst-instagram')
-fetch('http://localhost:3333/instagram/')
+<script>
+  const bstInstagram = document.querySelector('#bst-instagram')
+  fetch('http://localhost:3333/instagram/')
     .then(response => response.json())
     .then(data => {
         data.forEach(element => {
@@ -40,7 +39,7 @@ fetch('http://localhost:3333/instagram/')
       $('.item-bst').css('padding-left',margin)
       $('.item-bst').css('padding-right',margin)
     })
-{% endjavascript %}
+</script>
 <section id="section_instagram">
   {%- if section.settings.heading -%}
     <h2>{{ section.settings.heading }}</h2>
