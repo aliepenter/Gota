@@ -2,6 +2,26 @@
 <!-- <script type="text/javascript" src="{{ 'instagram.js' | asset_url }}" defer="defer"></script>
  -->
 
+
+<section id="section_instagram">
+  {%- if section.settings.heading -%}
+    <h2>{{ section.settings.heading }}</h2>
+  {%- endif -%}
+  
+  {%- if section.settings.description -%}
+    <p>{{ section.settings.description }}</p>
+  {%- endif -%}
+  <div  id="bst-instagram" 
+        data-autoplay="{{ section.settings.autoplay }}"
+        data-speed="{{ section.settings.autoplay-speed }}"
+        data-loop="{{ section.settings.loop }}"
+        data-arrows="{{ section.settings.arrows }}"
+        data-dots="{{ section.settings.dots }}"
+        data-rows="{{ section.settings.rows }}"
+        data-margin="{{ section.settings.margin }}"
+  >
+  </div>
+</section>
 <script>
   const bstInstagram = document.querySelector('#bst-instagram')
   fetch('http://localhost:3333/instagram/')
@@ -40,26 +60,6 @@
       $('.item-bst').css('padding-right',margin)
     })
 </script>
-<section id="section_instagram">
-  {%- if section.settings.heading -%}
-    <h2>{{ section.settings.heading }}</h2>
-  {%- endif -%}
-  
-  {%- if section.settings.description -%}
-    <p>{{ section.settings.description }}</p>
-  {%- endif -%}
-  <div  id="bst-instagram" 
-        data-autoplay="{{ section.settings.autoplay }}"
-        data-speed="{{ section.settings.autoplay-speed }}"
-        data-loop="{{ section.settings.loop }}"
-        data-arrows="{{ section.settings.arrows }}"
-        data-dots="{{ section.settings.dots }}"
-        data-rows="{{ section.settings.rows }}"
-        data-margin="{{ section.settings.margin }}"
-  >
-  </div>
-</section>
-
 {% schema %}
   {
     "name": "Instagram",
