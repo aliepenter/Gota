@@ -5,7 +5,7 @@
       "settings": {
         "heading": "Instagram",
         "description": "Make your Instagram shop",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay-speed": 200,
         "loop": true,
         "arrows": false,
