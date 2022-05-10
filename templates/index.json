@@ -1,5 +1,20 @@
 {
   "sections": {
+    "165206613951ffb69b": {
+      "type": "instagram-block",
+      "settings": {
+        "heading": "Instagram",
+        "description": "Make your Instagram shop",
+        "autoplay": true,
+        "autoplay-speed": 200,
+        "loop": true,
+        "arrows": false,
+        "dots": false,
+        "rows": "2",
+        "slts": "4",
+        "margin": "10px"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -205,29 +220,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "165206613951ffb69b": {
-      "type": "instagram-block",
-      "settings": {
-        "heading": "Instagram",
-        "description": "Make your Instagram shop",
-        "autoplay": false,
-        "autoplay-speed": 2000,
-        "loop": false,
-        "arrows": false,
-        "dots": false,
-        "rows": "2",
-        "margin": "10px"
-      }
     }
   },
   "order": [
+    "165206613951ffb69b",
     "image_banner",
     "rich_text",
     "featured_collection",
     "collage",
     "video",
-    "multicolumn",
-    "165206613951ffb69b"
+    "multicolumn"
   ]
 }
