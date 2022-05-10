@@ -6,7 +6,7 @@
         "heading": "Instagram Shop",
         "description": "Make your Instagram shop",
         "autoplay": true,
-        "autoplay-speed": 1000,
+        "autoplay-speed": 1,
         "loop": true,
         "arrows": false,
         "dots": false,
