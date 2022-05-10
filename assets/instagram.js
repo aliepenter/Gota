@@ -15,16 +15,17 @@ const runJsInstagram = () => {
         
     })
     .then(result => {
-       const autoplay = $('#bst-instagram').data("autoplay");
+        const autoplay = $('#bst-instagram').data("autoplay");
         const speed = $('#bst-instagram').data("speed");
         const loop = $('#bst-instagram').data("loop");
         const arrows = $('#bst-instagram').data("arrows");
         const dots = $('#bst-instagram').data("dots");
         const rows = $('#bst-instagram').data("rows");
         const margin = $('#bst-instagram').data("margin");
+        const slts = $('#bst-instagram').data("slts")
         $('#bst-instagram').slick({
             infinite: loop,
-            slidesToShow: 3,
+            slidesToShow: slts,
             slidesToScroll: 1,
             arrows: arrows,
             dots: dots,
