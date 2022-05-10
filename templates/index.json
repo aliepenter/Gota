@@ -10,7 +10,7 @@
         "loop": true,
         "arrows": false,
         "dots": false,
-        "rows": "1",
+        "rows": "2",
         "margin": "10px"
       }
     },
