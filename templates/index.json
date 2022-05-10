@@ -6,11 +6,11 @@
         "heading": "Instagram Shop",
         "description": "Make your Instagram shop",
         "autoplay": true,
-        "autoplay-speed": 100,
+        "autoplay-speed": 1000,
         "loop": true,
         "arrows": false,
         "dots": false,
-        "rows": "2",
+        "rows": "1",
         "margin": "10px"
       }
     },
